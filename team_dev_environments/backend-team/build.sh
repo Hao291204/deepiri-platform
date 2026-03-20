@@ -18,7 +18,6 @@ SERVICES=(
   notification-service external-bridge-service
   challenge-service realtime-gateway
   language-intelligence-service messaging-service
-  data-ingestion-service
   synapse frontend-dev adminer
   # deepiri-prismpipe  # PrismPipe - Capability-Routed API Pipeline (Coming Soon)
 )

@@ -15,7 +15,6 @@ SERVICES=(
   notification-service external-bridge-service
   challenge-service realtime-gateway
   language-intelligence-service messaging-service
-  data-ingestion-service
   frontend-dev synapse adminer
   # deepiri-prismpipe  # PrismPipe - Capability-Routed API Pipeline (Coming Soon)
 )
@@ -46,7 +45,6 @@ echo "  - External Bridge:         http://localhost:5006"
 echo "  - Challenge Service:       http://localhost:5007"
 echo "  - Realtime Gateway:        http://localhost:5008"
 echo "  - Messaging Service:       http://localhost:5009"
-echo "  - Data Ingestion Service:  http://localhost:5012"
 echo "  - Synapse:                 http://localhost:8002"
 echo ""
 echo "  Infrastructure:"
